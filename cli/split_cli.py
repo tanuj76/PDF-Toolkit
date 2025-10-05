@@ -67,3 +67,5 @@ def run_split(args: argparse.Namespace) -> None:
         print(f"Pages extracted from {args.file} and saved to {args.output}")
     else:
         print(f"{result.message}")
+
+

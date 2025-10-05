@@ -52,3 +52,5 @@ def run_rename(args: argparse.Namespace) -> None:
         print(f"Renamed {args.file} to {args.output}")
     else:
         print(f"Rename failed: {result.message}")
+
+
